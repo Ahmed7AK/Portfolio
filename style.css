@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+.portfolio-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+}
+.image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100w;
+    height: 300px;
+    background-color: rgb(29, 71, 107);
+}
+.image-div p {
+    text-align: justify;
+    width: 500px;
+}
+.image {
+    position:absolute;
+    object-fit: cover;
+    transform: translate(0px, 150px);
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: aqua;
+}
+.portfolio-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    text-align: center;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: gray;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10%;
+}
+.links h1 {
+    font-size: 30px;
+}
+.links a {
+    color: #1D476B;
+}
