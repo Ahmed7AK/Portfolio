@@ -1,25 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Code AK</title>
-</head>
-<body>
-    <div class="portfolio-div">
-        <div class="image-div">
-            <p>Hello, My name is Ahmed and I am a 2nd year computer science student. Am familiar with a wide variety of programming languages ranging from Python to C and Java I have been coding for a couple of years. This website is temprorary I will be adding more details in a week or so.</p>
-            <img class="image" src="./pfp.jpg" alt="">
-        </div>
-        <div class="portfolio-info">
-            <div class="links">
-                <h1>Contact Me</h1>
-                <a target="_blank" href="https://www.github.com/Ahmed7AK">GitHub</a>
-                <p>Email: ahmedakheirallah@gmail.com</p>
-                <p>Phone Number: +971563551404</p>
-            </div>
-        </div>
+  </head>
+  <body>
+    <div id="header">
+      <div id="header-links">
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
     </div>
-</body>
+    <div id="intro">
+      <p>Hello, my name is</p>
+      <h1>> Ahmed AK<span id="blink">&nbsp;</span></h1>
+      <p id="intro-info">
+        I am an 18 year old second year Computer Science student studying at
+        IBTE. I do some freelance work on the side.
+      </p>
+    </div>
+    <div id="about">
+      <div id="terminal">
+        <div id="terminal-header">
+          <div id="terminal-buttons">
+            <div id="red"></div>
+            <div id="yellow"></div>
+            <div id="green"></div>
+          </div>
+        </div>
+        <div id="terminal-body">
+          <div class="message">
+            <p class="input">> Ahmed.currentLocation</p>
+            <p class="output">"Dubai, United Arab Emirates"</p>
+          </div>
+          <div class="message">
+            <p class="input">> Ahmed.contactInfo</p>
+            <p class="output">
+              ["<a href="">ahmedakheirallah@gmail.com</a>", "<a href=""
+                >LinkedIn</a
+              >", "<a href="">GitHub</a>"]
+            </p>
+          </div>
+          <div class="message">
+            <p class="input">> Ahmed.resume</p>
+            <p class="output">"<a href="">ahmedak.pdf</a>"</p>
+          </div>
+          <div class="message">
+            <p class="input">> Ahmed.education</p>
+            <p class="output">"Highschool Diploma"</p>
+          </div>
+          <div class="message">
+            <p class="input">> Ahmed.interests</p>
+            <p class="output">
+              ["Basketball", "Coding", "Video Editing", "Gaming"]
+            </p>
+          </div>
+          <div class="message">
+            <p class="input">> Ahmed.skills</p>
+            <p class="output">
+              ["Python", "JavaScript", "HTML and CSS", "Video Editing", "UI/UX
+              Design", "..."]
+            </p>
+          </div>
+          <div class="message">
+            <p class="input">> <span id="blink2">&nbsp;</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects" class="title">
+        <h1>Projects</h1>
+        <div></div>
+    </div>
+    <div class="projects-div">
+      <div class="project">
+        <img src="./placeholder.png" alt="Placeholder" />
+        <div class="project-info">
+          <h2>Bean Boutique</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+            earum repellendus sit atque, unde officiis eligendi maiores tempora
+            sunt velit consequatur ea est harum eos, assumenda sed qui voluptas
+            obcaecati?
+          </p>
+          <div class="project-skills">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">ES6</div>
+          </div>
+          <div class="project-links">
+            <a class="live" href=""
+              >Live Demo<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2.25"
+              >
+                <path
+                  d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"
+                ></path>
+                <path d="M11 13l9 -9"></path>
+                <path d="M15 4h5v5"></path></svg></a>
+            <a class="view" href=""
+              >View Source<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2.25"
+              >
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                ></path></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./placeholder.png" alt="Placeholder" />
+        <div class="project-info">
+          <h2>Bean Boutique</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+            earum repellendus sit atque, unde officiis eligendi maiores tempora
+            sunt velit consequatur ea est harum eos, assumenda sed qui voluptas
+            obcaecati?
+          </p>
+          <div class="project-skills">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">ES6</div>
+          </div>
+          <div class="project-links">
+            <a class="live" href=""
+              >Live Demo<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2.25"
+              >
+                <path
+                  d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"
+                ></path>
+                <path d="M11 13l9 -9"></path>
+                <path d="M15 4h5v5"></path></svg></a>
+            <a class="view" href=""
+              >View Source<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2.25"
+              >
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                ></path></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./placeholder.png" alt="Placeholder" />
+        <div class="project-info">
+          <h2>Bean Boutique</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+            earum repellendus sit atque, unde officiis eligendi maiores tempora
+            sunt velit consequatur ea est harum eos, assumenda sed qui voluptas
+            obcaecati?
+          </p>
+          <div class="project-skills">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">ES6</div>
+          </div>
+          <div class="project-links">
+            <a class="live" href=""
+              >Live Demo<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2.25"
+              >
+                <path
+                  d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"
+                ></path>
+                <path d="M11 13l9 -9"></path>
+                <path d="M15 4h5v5"></path></svg></a>
+            <a class="view" href=""
+              >View Source<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2.25"
+              >
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                ></path></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <img src="./placeholder.png" alt="Placeholder" />
+        <div class="project-info">
+          <h2>Bean Boutique</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
+            earum repellendus sit atque, unde officiis eligendi maiores tempora
+            sunt velit consequatur ea est harum eos, assumenda sed qui voluptas
+            obcaecati?
+          </p>
+          <div class="project-skills">
+            <div class="skill">HTML5</div>
+            <div class="skill">CSS3</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">ES6</div>
+          </div>
+          <div class="project-links">
+            <a class="live" href=""
+              >Live Demo<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2.25"
+              >
+                <path
+                  d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6"
+                ></path>
+                <path d="M11 13l9 -9"></path>
+                <path d="M15 4h5v5"></path></svg></a>
+            <a class="view" href=""
+              >View Source<svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                width="24"
+                height="24"
+                stroke-width="2.25"
+              >
+                <path
+                  d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"
+                ></path></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="title">
+        <h1>Contact</h1>
+        <div></div>
+    </div>
+    <div class="contact">
+        <a href="mailto:ahmedakheirallah@gmail.com">ahmedakheirallah@gmail.com</a>
+        ||
+        <a href="https://www.linkedin.com/">LinkedIn</a>
+        ||
+        <a href="https://github.com/Ahmed7AK">GitHub</a>
+    </div>
+    <div id="copyright">
+        <p>Made by Ahmed AK © 2025</p>
+    </div>
+  </body>
 </html>
